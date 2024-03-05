@@ -29,8 +29,7 @@ async function uChatWidget(config) {
         "device": deviceType,
         "os": os,
         "browser": browserType,
-        "country": country,
-        "bot_id": config.ASSISTANT_ID,
+        "country": country
 
     }
 
