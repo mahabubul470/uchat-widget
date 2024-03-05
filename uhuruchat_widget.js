@@ -438,7 +438,8 @@ async function uChatWidget(config) {
             const response = await fetch(`${config.UHURUCHAT_ENDPOINT}/chats`, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'ACCESS-KEY': 'h6RwEjQZ6TfuQBJClIlTnAr8qWk='
                 },
                 body: JSON.stringify(primaryPayload)
             });
@@ -465,7 +466,8 @@ async function uChatWidget(config) {
                 timeout: 300000,
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'ACCESS-KEY': 'h6RwEjQZ6TfuQBJClIlTnAr8qWk='
                 },
                 body: JSON.stringify({
                     text: message.trim(),
