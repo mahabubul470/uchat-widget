@@ -438,7 +438,9 @@ async function uChatWidget(config) {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'text/plain',
-                    'ACCESS-KEY': 'ak-d4365b6c3864416680068a6cdc6fee82'
+                    'ACCESS-KEY': 'ak-d4365b6c3864416680068a6cdc6fee82',
+                    'Access-Control-Request-Method': 'POST',
+                    'Origin': 'https://mahabubul470.github.io'
                 },
                 body: JSON.stringify(primaryPayload)
             });
@@ -466,7 +468,9 @@ async function uChatWidget(config) {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'text/plain',
-                    'ACCESS-KEY': 'ak-d4365b6c3864416680068a6cdc6fee82'
+                    'ACCESS-KEY': 'ak-d4365b6c3864416680068a6cdc6fee82',
+                    'Access-Control-Request-Method': 'POST',
+                    'Origin': 'https://mahabubul470.github.io'
                 },
                 body: JSON.stringify({
                     text: message.trim(),
