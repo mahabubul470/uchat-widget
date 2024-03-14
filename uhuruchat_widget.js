@@ -466,7 +466,7 @@ async function uChatWidget(config) {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'ACCESS-KEY': 'h6RwEjQZ6TfuQBJClIlTnAr8qWk='
+                    'ACCESS-KEY': 'ak-d4365b6c3864416680068a6cdc6fee82'
                 },
                 body: JSON.stringify({
                     text: message.trim(),
